@@ -1,0 +1,154 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "ekf2",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-ekf2-Debug-5a46fb5dc9a07c695cd6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ekf2"
+				},
+				{
+					"build" : "ekf2/EKF",
+					"jsonFile" : "directory-ekf2.EKF-Debug-2a5a976a98ef0cedfdbc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "ekf2/EKF",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "mathlib",
+					"jsonFile" : "directory-mathlib-Debug-4cea1b94ebb24ed8014b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "mathlib",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "geo",
+					"jsonFile" : "directory-geo-Debug-e9964a374754080803cb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "geo",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "PX4-EKF2-Standalone",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "PX4-EKF2-Standalone::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PX4-EKF2-Standalone-Debug-d1ce39c58715a1f2dac2.json",
+					"name" : "PX4-EKF2-Standalone",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ecl_EKF::@d3c54d2513dc757e16d5",
+					"jsonFile" : "target-ecl_EKF-Debug-36193bcbb1b1d294db77.json",
+					"name" : "ecl_EKF",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "geo::@ee0467dc35374b2fc152",
+					"jsonFile" : "target-geo-Debug-61912c9045cd0f75362c.json",
+					"name" : "geo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "mathlib::@07c55ca53aa729ec02ec",
+					"jsonFile" : "target-mathlib-Debug-7f4c83ff3a972dabf2f0.json",
+					"name" : "mathlib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/DevFiles/CppCom/PX4-EKF2-Standalone/cmake-build-debug",
+		"source" : "D:/DevFiles/CppCom/PX4-EKF2-Standalone"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
